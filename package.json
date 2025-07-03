@@ -1,0 +1,17 @@
+{
+  "name": "logger-server",
+  "version": "1.0.0",
+  "description": "Logger test server with token management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test-logger": "node logger.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": ["logger", "express", "server"],
+  "author": "",
+  "license": "ISC"
+}
