@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logger Test Page</title>
+
+    <!-- Might add CSS later if needed -->
+</head>
+<body>
+    <h1>Logger Test</h1>
+    <p>Open console to see what’s going on with the logs.</p>
+
+    <!-- Including logger file -->
+    <script src="logger.js"></script>
+
+    <!-- Quick inline test - can remove later -->
+    <script>
+        console.log("Test page loaded, trying out logger...");
+
+        // Just checking if I can trigger a log from here
+        sendLog("frontend", "info", "test-page", "Test log from inline script");
+    </script>
+
+    <!-- TODO: Maybe style this better -->
+</body>
+</html>
